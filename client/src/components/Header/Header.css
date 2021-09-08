@@ -1,0 +1,78 @@
+.navbar
+{
+    background-color: #008f11 !important;
+    width: auto;
+    color: white !important;
+}
+.nav-cal{
+    width: auto;
+    color: white !important;
+    font-size: 14px;
+}
+
+#products {
+    color: white !important;
+    font-size: 14px;
+}
+
+.userdrop {
+    float: right !important;
+    margin-left: 68rem !important;
+}
+
+#username {
+    color: white;
+    font-size: 14px;
+}
+
+.cart {
+    text-decoration: none !important;
+    margin-left: 0rem !important;
+    font-size: 14px !important;
+    color: white !important;
+}
+
+.fa-shopping-cart {
+    margin-right: 8px ;
+    color: white;
+}
+
+.login {
+    text-decoration: none !important;
+    margin-left: 63rem !important;
+    font-size: 14px !important;
+    color: white !important;
+}
+
+/* Desktop */
+@media only screen and (min-width: 992px) {
+    .navbar {
+        height: 90px;      
+    }
+    .cart {
+        float: right !important;
+        margin-left: 55rem !important;
+        color: white !important;
+        font-size: 14px !important;
+        font-size: 14px;
+    }
+    .remove-space {
+        float: right !important;
+        margin-left: 55rem !important;
+        color: white !important;
+        font-size: 14px !important;
+    }
+    .nav-cal{
+        margin-left: 10px;
+    }
+    .admin {
+        margin-left: 74rem;
+    }
+}
+
+/* Phone */
+@media only screen and (max-width:320px) {
+    .nav-cal{
+        font-size: 15px !important;
+    }
+}
